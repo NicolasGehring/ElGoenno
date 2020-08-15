@@ -14,7 +14,7 @@
             <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Biercounter</h4>
-          <p class="text-muted" v-if="posts[0]">{{posts[0].title}}</p>
+          <p class="text-muted" v-if="beers">{{beers.length}}</p>
         </div>
 
         <div class="col-md-4">
@@ -49,7 +49,7 @@ import axios from "axios";
 export default {
   data() {
     return {
-      posts: [],
+      beers: [],
       errors: [],
     };
   },
@@ -63,6 +63,20 @@ export default {
     } catch (e) {
       this.errors.push(e);
     }
+  },
+  async mounted() {
+    // get event id for El Goenno Grande
+    const event_id_res = await axios.get(
+      "https://beercounter-78aae.firebaseio.com/egg_event_id.json"
+    );
+    // get all beers
+    var beers_res = await axios.get(
+      "https://beercounter-78aae.firebaseio.com/beers.json"
+    );
+    // filter beers by El Goenno Grande Event
+    this.beers = beers_res.data.filter(
+      (beer) => beer.eventId == event_id_res.data
+    );
   },
 };
 </script>
