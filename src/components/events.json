@@ -1,0 +1,69 @@
+{
+  "events": [
+    {
+      "type": "morgens",
+      "activities": [
+        { "name": "Morgens" },
+        { "name": "---" },
+        { "name": "Chill" },
+        { "name": "Gran Fondo", "type": "restricted" },
+        { "name": "Chill" },
+        { "name": "Chill" },
+        { "name": "Chill" },
+        { "name": "Klettersteig", "type": "closed" }
+      ]
+    },
+    {
+      "type": "mittags",
+      "activities": [
+        { "name": "Mittags" },
+        { "name": "Fassanstich" },
+        { "name": "Mini Golf" },
+        { "name": "Gran Fondo", "type": "restricted" },
+        { "name": "Chill" },
+        { "name": "Hochseilgarten", "type": "restricted" },
+        { "name": "Spielo", "type": "closed" },
+        { "name": "Klettersteig", "type": "closed" }
+      ]
+    },
+    {
+      "type": "nachmittags",
+      "activities": [
+        { "name": "Nachmittags" },
+        { "name": "Trinkolympiade" },
+        { "name": "Grillen an der Isar" },
+        { "name": "Woolworth", "type": "closed" },
+        { "name": "Escape room", "type": "restricted" },
+        { "name": "---" },
+        { "name": "Shisha bar", "type": "restricted" },
+        { "name": "Klettersteig", "type": "closed" }
+      ]
+    },
+    {
+      "type": "abend",
+      "activities": [
+        { "name": "Abends" },
+        { "name": "Trinken" },
+        { "name": "Grillen an der Isar" },
+        { "name": "Pub Quiz" },
+        { "name": "Beachvolleyball" },
+        { "name": "Trampolinpark" },
+        { "name": "Malen + Essen gehen", "type": "restricted" },
+        { "name": "Grande Finale" }
+      ]
+    },
+    {
+      "type": "nachts",
+      "activities": [
+        { "name": "Nachts" },
+        { "name": "Trinken" },
+        { "name": "Filmeabend", "type": "restricted" },
+        { "name": "Trinkspiele" },
+        { "name": "Kochen" },
+        { "name": "Cocktail abend" },
+        { "name": "Spieleabend / Activity", "type": "restricted" },
+        { "name": "Grande Finale" }
+      ]
+    }
+  ]
+}
