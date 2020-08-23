@@ -53,17 +53,6 @@ export default {
       errors: [],
     };
   },
-  async created() {
-    try {
-      const response = await axios.get(
-        `http://jsonplaceholder.typicode.com/posts`
-      );
-      this.posts = response.data;
-      console.log(response);
-    } catch (e) {
-      this.errors.push(e);
-    }
-  },
   async mounted() {
     // get event id for El Goenno Grande
     const event_id_res = await axios.get(
