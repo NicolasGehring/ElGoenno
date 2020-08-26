@@ -6,15 +6,16 @@
           <h2 class="section-heading text-uppercase">Timetable</h2>
           <h3 class="section-subheading text-muted">
             Bei Fragen bezüglich genauer Uhrzeiten bitte einen von uns
-            kontaktieren. <br />
-            <b
-              >Rot -> Teilnahme nichtmehr möglich Gelb -> Teilnehmerzahl begrenz
-              bei interesse melden</b
-            >
+            kontaktieren.
+            <br />
+            <b>
+              Rot -> Teilnahme nichtmehr möglich Gelb -> Teilnehmerzahl begrenz
+              bei interesse melden
+            </b>
           </h3>
         </div>
       </div>
-      <div class="row">
+      <div class="row" style="overflow-x:auto;">
         <table id="tableId">
           <thead>
             <tr>
@@ -34,9 +35,7 @@
                 v-for="act in item.activities"
                 v-bind:key="act"
                 v-bind:class="act.type"
-              >
-                {{ act.name }}
-              </td>
+              >{{ act.name }}</td>
             </tr>
           </tbody>
         </table>
@@ -56,8 +55,9 @@ export default {
 
 <style scoped>
 table {
-  width: 100%;
+  width: 1000px;
   table-layout: fixed;
+  margin: auto;
 }
 table,
 th,
@@ -68,6 +68,7 @@ td {
 
 tr {
   height: 75px;
+  width: 75px;
 }
 .restricted {
   background-color: yellow;
