@@ -9,8 +9,8 @@
             kontaktieren.
             <br />
             <b>
-              Rot -> Teilnahme nichtmehr möglich Gelb -> Teilnehmerzahl begrenz
-              bei interesse melden
+              Rot -> Teilnahme nichtmehr möglich Grün -> Teilnehmerzahl begrenzt
+              <br />Bitte sagt uns bis Ende der Woche bescheid.
             </b>
           </h3>
         </div>
@@ -71,9 +71,9 @@ tr {
   width: 75px;
 }
 .restricted {
-  background-color: yellow;
+  background-color: #66ccc0;
 }
 .closed {
-  background-color: red;
+  background-color: #ce3e49;
 }
 </style>
