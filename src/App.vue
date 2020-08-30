@@ -5,6 +5,7 @@
     <Counter></Counter>
     <Timetable></Timetable>
     <Team></Team>
+    <Donation></Donation>
     <Footer></Footer>
   </div>
 </template>
@@ -15,6 +16,7 @@ import Counter from "./components/Counter";
 import Team from "./components/Team";
 import Footer from "./components/Footer";
 import Timetable from "./components/Timetable";
+import Donation from "./components/Donation";
 
 export default {
   name: "app",
@@ -24,6 +26,7 @@ export default {
     Counter,
     Team,
     Footer,
+    Donation,
   },
 };
 </script>
