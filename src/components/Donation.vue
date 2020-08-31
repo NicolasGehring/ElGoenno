@@ -4,9 +4,10 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Unterstütze uns</h2>
-          <h3
-            class="section-subheading text-muted"
-          >Wenn dir die Gönnerwoche gefallen hat würden wir uns sehr über eine Spende freuen. Bei einer Spende von 5€ trinken Simon und ich einen Shot und senden dir ein persönliches Video mit Dankesnachricht. Alternativ nehmen wir Spenden in Form von Bargeld oder Naturalien an.</h3>
+          <h3 class="section-subheading text-muted">
+            <b>50% der Spenden werden von uns an einen wohltätigen Zweck gespendet!</b>
+            <br />Wenn dir die Gönnerwoche gefallen hat würden wir uns sehr über eine Spende freuen. Bei einer Spende von 10€ trinken Simon und ich einen Shot und senden dir ein persönliches Video mit Dankesnachricht. Alternativ nehmen wir Spenden in Form von Bargeld oder Naturalien an.
+          </h3>
         </div>
       </div>
     </div>
